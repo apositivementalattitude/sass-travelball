@@ -1181,9 +1181,8 @@ input, select, textarea {
 	}
 
 		header p {
-			display: block;
-			margin: 1em 0 0 0;
-			padding: 0 0 0.5em 0;
+			display: flex;
+			justify-content: center;
 		}
 
 	footer {
@@ -1869,7 +1868,7 @@ input, select, textarea {
 
 				display: flex;
 				justify-content: center;
-				
+				color: #000;
 			}
 
 		#header nav {
